@@ -938,14 +938,14 @@
   object-fit: cover;
 }
 
-/* Wrapper для масштабирования контента */
+
 @media (min-width: 1441px) {
   .frame {
     max-width: 100vw;
   }
 }
 
-/* Для очень маленьких экранов добавляем минимальную ширину */
+
 @media (max-width: 768px) {
   .frame {
     min-width: 320px;
@@ -955,7 +955,7 @@
     overflow-x: auto;
   }
   
-  /* Корректируем элементы подвала для маленьких экранов */
+  
   .frame .text-wrapper-22 {
     left: auto !important;
     right: calc(100vw * 10 / 1440);
